@@ -1,3 +1,5 @@
+<img width="3960" height="990" alt="image" src="https://github.com/user-attachments/assets/78c3f94f-7586-44e5-9ca1-4df1e76c8b8e" />
+
 # Ramu Chelloju
 
 **DevOps Engineer | Cloud Infrastructure Architect | Automation Specialist**
