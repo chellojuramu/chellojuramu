@@ -123,7 +123,7 @@ Sole DevOps engineer responsible for **designing, deploying, and operating** the
 │  │  WAF + LB)    │    │  (Multi-env)  │    │  ├── API Service     │  │
 │  └──────────────┘    └──────────────┘    │  ├── Batch Service   │  │
 │                                           │  └── Chat Service    │  │
-│  ┌──────────────┐    ┌─��────────────┐    └──────────────────────┘  │
+│  ┌──────────────┐    ┌──────────────┐    └──────────────────────┘  │
 │  │  Redis Cache  │    │ Log Analytics │                              │
 │  │  (Sessions +  │    │ + App Insights│    ┌──────────────────────┐  │
 │  │   Caching)    │    │ (Observability│    │  Jenkins CI/CD       │  │
@@ -133,7 +133,7 @@ Sole DevOps engineer responsible for **designing, deploying, and operating** the
 │  │  Multi-Tenant White-Label Infra    │                              │
 │  │  Client A ║ Client B ║ Client C    │  ← Isolated Resources      │
 │  └────────────────────────────────────┘  ← Shared Patterns          │
-└─────────────────────────────────────────────────────────────────────┘
+└─────────────────────��───────────────────────────────────────────────┘
 ```
 
 <details>
@@ -261,9 +261,11 @@ Comprehensive Terraform implementation covering enterprise infrastructure patter
 
 <div align="center">
 
-| Certification | Issuer | Date | Credential |
-|:---:|:---:|:---:|:---:|
-| **Foundations of Cybersecurity** | Google | Mar 2026 | [Verify](https://www.credly.com) |
+| | Certification | Issuer | Issued | Status |
+|:---:|:---:|:---:|:---:|:---:|
+| ![Microsoft](https://img.shields.io/badge/-0078D4?style=flat-square&logo=microsoft&logoColor=white) | **Microsoft Certified: Azure Fundamentals (AZ-900)** | Microsoft | Apr 2022 | ✅ Active |
+| ![Udacity](https://img.shields.io/badge/-02B3E4?style=flat-square&logo=udacity&logoColor=white) | **Foundation of Ethical Hacking** | Udacity | Jan 2025 | ✅ Active |
+| ![Google](https://img.shields.io/badge/-4285F4?style=flat-square&logo=google&logoColor=white) | **Foundations of Cybersecurity** | Google | Mar 2026 | ✅ Active |
 
 </div>
 
@@ -290,7 +292,7 @@ Comprehensive Terraform implementation covering enterprise infrastructure patter
 
 ## 📈 What I Practice Daily
 
-- **Infrastructure as Code** — All changes through version-controlled, peer-reviewed Terraform & Ansible
+- **Infrastructure as Code** ��� All changes through version-controlled, peer-reviewed Terraform & Ansible
 - **GitOps Workflows** — Git as the single source of truth for infrastructure state
 - **CI/CD Pipeline Architecture** — Automated build → test → deploy → release to production
 - **Monitoring-First Operations** — Proactive alerting with actionable runbooks and dashboards
@@ -354,10 +356,27 @@ Open to discussing **cloud architecture challenges**, **infrastructure automatio
 
 <div align="center">
 
-*"Infrastructure is code. Code is tested. Code is reviewed. Therefore, infrastructure is reliable."*
+## 📈 GitHub Activity
 
-![Profile Views](https://komarev.com/ghpvc/?username=chellojuramu&color=0A66C2&style=flat-square&label=Profile+Views)
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=chellojuramu&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Activity" width="100%" alt="Contribution Graph" />
+
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com?user=chellojuramu&theme=transparent&hide_border=true&date_format=j%20M%5B%20Y%5D&ring=0A66C2&fire=0A66C2&currStreakLabel=0A66C2&sideLabels=333333&currStreakNum=333333&sideNums=333333&dates=888888" width="49%" alt="GitHub Streak" />
+<img src="https://github-readme-stats.vercel.app/api?username=chellojuramu&show_icons=true&hide_border=true&theme=transparent&title_color=0A66C2&icon_color=0A66C2&text_color=333333&hide=contribs&rank_icon=github" width="49%" alt="GitHub Stats" />
+
+<br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chellojuramu&layout=compact&hide_border=true&theme=transparent&title_color=0A66C2&text_color=333333&langs_count=8" width="40%" alt="Top Languages" />
 
 </div>
 
-<!-- ATS Keywords: DevOps Engineer, Senior DevOps Engineer, Cloud Infrastructure, AWS, Azure, Terraform, Ansible, Kubernetes, Docker, CI/CD, Jenkins, GitHub Actions, Infrastructure as Code, IaC, Microservices, Monitoring, Prometheus, Grafana, ELK Stack, Platform Engineering, SRE, Site Reliability Engineering, Cloud Security, Production Support, Healthcare Technology, Telehealth, Multi-Cloud, Container Orchestration, Helm, GitOps, ArgoCD, Python, Bash, Linux, MySQL, MongoDB, Redis, RabbitMQ, High Availability, Disaster Recovery, Observability, Application Insights, CloudWatch, Cost Optimization, FinOps -->
+---
+
+<div align="center">
+
+*"Infrastructure is code. Code is tested. Code is reviewed. Therefore, infrastructure is reliable."*
+
+</div>
+
+<!-- ATS Keywords: DevOps Engineer, Senior DevOps Engineer, Cloud Infrastructure, AWS, Azure, Terraform, Ansible, Kubernetes, Docker, CI/CD, Jenkins, GitHub Actions, Infrastructure as Code, IaC, Microservices, Monitoring, Prometheus, Grafana, ELK Stack, Platform Engineering, SRE, Site Reliability Engineering, Cloud Security, Production Support, Healthcare Technology, Telehealth, Multi-Cloud, Container Orchestration, Helm, GitOps, ArgoCD, Python, Bash, Linux, MySQL, MongoDB, Redis, RabbitMQ, High Availability, Disaster Recovery, Observability, Application Insights, CloudWatch, Cost Optimization, FinOps, Azure Fundamentals, AZ-900, Ethical Hacking, Cybersecurity -->
