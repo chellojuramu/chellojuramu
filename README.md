@@ -1,186 +1,287 @@
+<div align="center">
+
 <img width="3960" height="990" alt="image" src="https://github.com/user-attachments/assets/78c3f94f-7586-44e5-9ca1-4df1e76c8b8e" />
+
+<br/><br/>
 
 # Ramu Chelloju
 
-**DevOps Engineer | Cloud Infrastructure Architect | Automation Specialist**
+### Senior DevOps Engineer · Cloud Infrastructure Architect · Platform Engineering
 
-Building scalable, reliable infrastructure through code. Specialized in multi-cloud automation, container orchestration, and production-grade CI/CD systems.
+*Designing, building, and operating production-grade cloud infrastructure at scale*
+*Specialized in multi-cloud automation, microservices orchestration, and zero-downtime delivery systems*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/ramuchelloju)
-[![Email](https://img.shields.io/badge/Email-chelloju%40outlook.com-red)](mailto:chelloju@outlook.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ramuchelloju)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:chelloju@outlook.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chellojuramu)
 
----
-
-## About
-
-DevOps engineer with 4.9 years of production experience designing and maintaining infrastructure for high-availability systems. I focus on infrastructure automation, container orchestration, and building CI/CD pipelines that enable rapid, reliable deployments at scale.
-
-**Core Philosophy**: Infrastructure should be reproducible, version-controlled, and self-documenting. Every manual process is an automation opportunity.
-
-**Current Focus**: Production-grade Terraform architectures, Kubernetes orchestration patterns, and observability-driven operations.
+</div>
 
 ---
 
-## Technical Expertise
+<div align="center">
 
-### Cloud & Infrastructure
-**AWS**: VPC Design, EC2, ECS, EKS, S3, Lambda, CloudWatch, IAM, Route53  
-**Azure**: App Services, AKS, Blob Storage, Key Vault, Front Door, Application Insights  
-**Infrastructure as Code**: Terraform (advanced state management, modules, workspaces), Ansible (roles, dynamic inventories), CloudFormation
+**5 Years** Production Experience · **15+** Environments Managed · **99.7%** Uptime SLA · **60%** Faster Deployments
 
-### Container & Orchestration
-**Docker**: Multi-stage builds, image optimization, registry management  
-**Kubernetes**: Cluster administration, deployment strategies, service mesh concepts, Helm charts  
-**Container Registries**: ECR, ACR, Docker Hub
+</div>
+
+---
+
+## 👋 About
+
+Production-focused DevOps Engineer with **5 years** of hands-on experience architecting and operating cloud infrastructure for **healthcare platforms** and **enterprise-grade microservices**. Currently serving as the **primary DevOps engineer** for a telehealth platform on Azure, managing multi-tenant white-label infrastructure serving healthcare clients at scale.
+
+> **Engineering Philosophy**: Every manual process is technical debt. Infrastructure must be reproducible, version-controlled, observable, and self-healing. I build systems that operators trust and developers love.
+
+**What I bring to the table:**
+- End-to-end ownership of cloud infrastructure — from architecture design to production operations
+- Deep expertise in both **AWS** and **Azure** ecosystems with production workloads
+- Battle-tested CI/CD pipeline architecture reducing deployment cycles by 60%
+- Monitoring-first mindset — if you can't observe it, you can't operate it
+
+---
+
+## 🛠️ Technology Stack
+
+<div align="center">
+
+### Cloud Platforms
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+
+### Infrastructure as Code
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
+![CloudFormation](https://img.shields.io/badge/CloudFormation-FF4F8B?style=flat-square&logo=amazonwebservices&logoColor=white)
+
+### Containers & Orchestration
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
 
 ### CI/CD & Automation
-**Pipeline Tools**: Jenkins (Groovy DSL, shared libraries), GitHub Actions (reusable workflows), Azure DevOps  
-**Version Control**: Git workflows, branching strategies, monorepo vs polyrepo patterns  
-**Automation**: Bash scripting, Python automation, YAML templating
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white)
 
 ### Monitoring & Observability
-**Metrics**: Prometheus (PromQL, recording rules), Grafana (dashboard design, alerting)  
-**Logging**: ELK Stack, CloudWatch Logs, Azure Monitor  
-**APM**: New Relic, Application Insights
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![ELK Stack](https://img.shields.io/badge/ELK_Stack-005571?style=flat-square&logo=elasticstack&logoColor=white)
 
 ### Databases & Middleware
-**Relational**: MySQL (replication, backup automation)  
-**NoSQL**: MongoDB (replica sets), Redis (caching patterns)  
-**Message Queues**: RabbitMQ
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
+
+### Scripting & Tools
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+
+</div>
 
 ---
 
-## Featured Projects
+## 🏗️ Production Experience — Current Role
 
-### [terraform-end-to-end-mastery](https://github.com/chellojuramu/terraform-end-to-end-mastery)
-**Production-Grade Multi-Tier AWS Infrastructure**
+### Telehealth Platform · Wellness Stream — Azure Cloud Infrastructure & DevOps
 
-Terraform implementation demonstrating enterprise infrastructure patterns with focus on state management, modularity, and scalability.
+> *Primary DevOps Engineer — White-Label Healthcare SaaS Platform*
 
-**Architecture Highlights**:
-- Remote state management with S3 backend and DynamoDB state locking for team collaboration
-- Layered state architecture separating networking, compute, and application layers
-- Production VPC design: multi-AZ deployment with public/private subnet architecture
-- CIDR planning with proper subnet segmentation for services, databases, and management
-- Modular design with reusable components following DRY principles
-- Network security: security groups, NACLs, and bastion host patterns
+Sole DevOps engineer responsible for designing, deploying, and operating the complete cloud infrastructure for a telehealth platform focused on weight-loss management and remote healthcare services. Built and maintained a **multi-tenant white-label architecture** supporting multiple healthcare clients with isolated infrastructure and shared deployment patterns.
 
-**Technical Implementation**:
-- Workspace-based environment separation (dev, staging, prod)
-- Variables and locals for configuration management
-- Data sources for cross-stack references
-- Output values for resource discovery and integration
-- Conditional resource creation based on environment
+<details>
+<summary><b>📋 Key Responsibilities & Achievements (click to expand)</b></summary>
+<br/>
 
-**Real-World Application**: Suitable for deploying microservices architectures requiring network isolation, high availability, and infrastructure versioning.
+| Area | Details |
+|------|---------|
+| **Cloud Architecture** | Designed and managed Azure cloud infrastructure for multiple white-label environments supporting different healthcare clients |
+| **Microservices** | Deployed and maintained microservices architecture — Web, API, Batch Processing, and Chat services |
+| **Compute** | Configured and managed Azure App Services and App Service Plans for backend APIs and web applications |
+| **Networking** | Implemented Azure Front Door for global routing, load balancing, and secure access to application endpoints |
+| **Caching** | Managed Azure Cache for Redis for high-performance caching and session management |
+| **Observability** | Implemented centralized logging and monitoring using Azure Log Analytics Workspace and Application Insights |
+| **Alerting** | Configured smart detection alerts, metric alerts, and action groups for application failure and performance monitoring |
+| **CI/CD** | Built and maintained CI/CD pipelines using Jenkins to automate build, deployment, and release processes |
+| **Multi-Tenancy** | Managed infrastructure for multiple clients with isolated resources while sharing common deployment patterns |
+| **Operations** | Monitored system health, resolved production issues, and ensured high availability of telehealth services |
+| **Collaboration** | Collaborated with development teams to streamline deployment workflows and improve release reliability |
 
----
+</details>
 
-### [ansible-roboshop-roles](https://github.com/chellojuramu/ansible-roboshop-roles)
-**Role-Based Configuration Management for Microservices**
-
-Ansible role architecture for automated deployment and configuration of multi-tier microservices applications.
-
-**Architecture Highlights**:
-- Role-based structure with clear separation of concerns
-- Dynamic inventory management for cloud environments
-- Jinja2 templating for environment-specific configurations
-- Idempotent playbooks ensuring consistent system state
-- Handler-based service management for optimized restarts
-
-**Technical Implementation**:
-- Custom roles for frontend, backend, database, and caching tiers
-- Variable precedence strategy for multi-environment deployments
-- Vault integration for secrets management
-- Pre-flight checks and validation tasks
-- Rolling update patterns for zero-downtime deployments
-
-**Production Considerations**: Implements best practices for configuration drift prevention, secrets handling, and deployment validation.
+**Impact**: Platform enables patients to access healthcare providers instantly through telehealth consultations — supporting weight-loss management, medication programs, and online patient engagement across multiple healthcare organizations.
 
 ---
 
-### [roboshop-ansible-automation](https://github.com/chellojuramu/roboshop-ansible-automation)
-**End-to-End Microservices Deployment Automation**
+## 🚀 Featured Projects
 
-Complete automation framework for provisioning, configuring, and deploying a production microservices application stack.
+### [`roboshop-infra-dev`](https://github.com/chellojuramu/roboshop-infra-dev)
+**Production-Grade AWS Infrastructure with Terraform — Modular Multi-Tier Architecture**
 
-**Architecture Highlights**:
-- Automated infrastructure provisioning (compute, networking, storage)
-- Service discovery and registration patterns
-- Database initialization and schema management
-- Load balancer configuration and health checks
-- Monitoring agent deployment and configuration
+End-to-end infrastructure provisioning for a microservices e-commerce platform using Terraform with custom reusable modules.
 
-**Technical Implementation**:
-- Multi-stage playbooks for ordered service deployment
-- Dependency management between services
-- Environment promotion workflows
-- Rollback capabilities for failed deployments
-- Post-deployment validation and smoke testing
+```
+Architecture:
+├── infra/              → Environment-specific infrastructure definitions
+├── modules/
+│   ├── terraform-aws-vpc/   → Custom VPC module (multi-AZ, public/private subnets)
+│   └── terraform-aws-sg/    → Security group module (least-privilege network policies)
+└── roboshop-infra.drawio    → Architecture diagram
+```
 
-**Impact**: Reduces deployment time from hours to minutes, eliminates manual configuration errors, and provides reproducible environments across dev, staging, and production.
+**What makes this production-grade:**
+- ✅ Custom Terraform modules for VPC and Security Groups — not off-the-shelf, purpose-built
+- ✅ Multi-AZ deployment with proper subnet segmentation (public, private, database tiers)
+- ✅ Remote state management with state locking for team collaboration
+- ✅ Environment separation through Terraform workspaces
+- ✅ Architecture documented with draw.io diagrams
 
----
-
-## Infrastructure Philosophy
-
-**Automation First**: If you do it twice, automate it. Manual processes don't scale.
-
-**Immutable Infrastructure**: Servers are cattle, not pets. Replace, don't patch.
-
-**Observability**: You can't improve what you can't measure. Metrics, logs, and traces are first-class citizens.
-
-**Security by Design**: Least privilege, defense in depth, secrets never in code.
-
-**Disaster Recovery**: Backup everything. Test restores regularly. Automate failover.
+**Tech**: `Terraform` `AWS VPC` `EC2` `Security Groups` `S3 Backend` `DynamoDB State Lock` `Multi-AZ`
 
 ---
 
-## DevOps Practices
+### [`ansible-roboshop-roles`](https://github.com/chellojuramu/ansible-roboshop-roles)
+**Enterprise Ansible Role Architecture — 11-Service Microservices Deployment**
 
-- **Infrastructure as Code**: All infrastructure changes through version-controlled code
-- **GitOps Workflows**: Git as single source of truth for infrastructure state
-- **Continuous Integration**: Automated testing of infrastructure code before deployment
-- **Continuous Deployment**: Automated, tested deployments to production
-- **Monitoring & Alerting**: Proactive issue detection with actionable alerts
-- **Incident Response**: Defined runbooks, post-mortems, and continuous improvement
-- **Capacity Planning**: Right-sizing resources based on metrics and forecasting
-- **Cost Optimization**: Resource tagging, usage analysis, and waste elimination
+Production-ready Ansible automation with proper role-based architecture for deploying a complete microservices application stack.
 
----
+```
+Architecture:
+├── roles/
+│   ├── frontend/      → Nginx reverse proxy + static assets
+│   ├── cart/          → Cart microservice (Node.js)
+│   ├── catalogue/     → Product catalog service (Node.js)
+│   ├── user/          → User authentication service (Node.js)
+│   ├── shipping/      → Shipping calculation service (Java)
+│   ├── payment/       → Payment processing service (Python)
+│   ├── mongodb/       → Document store for catalog/user data
+│   ├── mysql/         → Relational DB for shipping/orders
+│   ├── redis/         → Session cache + cart storage
+│   ├── rabbitmq/      → Async message queue for order processing
+│   └── common/        → Shared tasks and handlers
+├── group_vars/        → Environment-specific variables
+├── inventory.ini      → Host inventory
+└── roboshop.yaml      → Master orchestration playbook
+```
 
-## Current Learning
+**What makes this production-grade:**
+- ✅ Role-based structure with clear separation of concerns across 11 services
+- ✅ Jinja2 templating for environment-specific configurations
+- ✅ Idempotent playbooks — safe to run repeatedly
+- ✅ Handler-based service management for optimized restarts
+- ✅ Group variables for multi-environment deployment support
 
-- Advanced Kubernetes patterns (operators, custom controllers)
-- Service mesh architectures (Istio, Linkerd)
-- GitOps tools (ArgoCD, FluxCD)
-- Infrastructure testing (Terratest, Kitchen-Terraform)
-- Cloud cost optimization strategies
-- Multi-cloud networking and hybrid architectures
-
----
-
-## Professional Background
-
-**4.9 years** of production DevOps experience managing cloud infrastructure for healthcare and enterprise applications. Track record of:
-
-- Reducing deployment time by 60% through infrastructure automation
-- Managing 15+ production environments across multiple clients
-- Maintaining 99.7% uptime for mission-critical applications
-- Implementing monitoring systems that reduced MTTD to under 5 minutes
-- Leading infrastructure migrations with zero downtime
-
-**Technologies in Production**: AWS, Azure, Terraform, Ansible, Docker, Kubernetes, Jenkins, GitHub Actions, Prometheus, Grafana, ELK Stack, MySQL, MongoDB, Redis
+**Tech**: `Ansible` `YAML` `Jinja2` `Roles` `Handlers` `Node.js` `Java` `Python` `MongoDB` `MySQL` `Redis` `RabbitMQ`
 
 ---
 
-## Connect
+### [`terraform-end-to-end-mastery`](https://github.com/chellojuramu/terraform-end-to-end-mastery)
+**Terraform Deep-Dive — State Management, Modules, Workspaces & Advanced Patterns**
 
-Open to discussing infrastructure challenges, automation strategies, and DevOps best practices.
+Comprehensive Terraform implementation covering enterprise infrastructure patterns from fundamentals to advanced state architecture.
 
-**LinkedIn**: [linkedin.com/in/ramuchelloju](https://linkedin.com/in/ramuchelloju)  
-**Email**: chelloju@outlook.com
+**What's covered:**
+- ✅ Remote state with S3 + DynamoDB locking — team-safe infrastructure management
+- ✅ Layered state architecture separating network, compute, and application layers
+- ✅ Production VPC design with multi-AZ, public/private subnet architecture
+- ✅ Modular, reusable components following DRY principles
+- ✅ Workspace-based environment separation (dev → staging → prod)
+- ✅ Data sources for cross-stack references and output-driven integration
+
+**Tech**: `Terraform` `AWS` `VPC` `S3` `DynamoDB` `IAM` `Workspaces` `Modules`
 
 ---
 
-*Infrastructure is code. Code is tested. Therefore, infrastructure is tested.*
+## 🏆 Certifications
+
+<div align="center">
+
+| Certification | Issuer | Date |
+|:---:|:---:|:---:|
+| **Foundations of Cybersecurity** | Google | Mar 2026 |
+
+</div>
+
+---
+
+## 📊 Production Impact — By The Numbers
+
+<div align="center">
+
+| Metric | Result |
+|:------:|:------:|
+| **Deployment Time Reduction** | 60% faster through infrastructure automation |
+| **Production Environments** | 15+ managed across multiple healthcare clients |
+| **Application Uptime** | 99.7% SLA for mission-critical telehealth services |
+| **Mean Time to Detection** | < 5 minutes with proactive monitoring systems |
+| **Infrastructure Migrations** | Executed with zero downtime |
+
+</div>
+
+---
+
+## 🧠 Engineering Principles
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                                                                 │
+│   AUTOMATION FIRST     → If you do it twice, automate it        │
+│   IMMUTABLE INFRA      → Servers are cattle, not pets            │
+│   OBSERVABILITY        → Can't improve what you can't measure    │
+│   SECURITY BY DESIGN   → Least privilege. Secrets never in code  │
+│   DISASTER RECOVERY    → Backup everything. Test restores often  │
+│   INFRASTRUCTURE = CODE → Version-controlled, tested, reviewed   │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 📈 What I Practice Daily
+
+- **Infrastructure as Code** — All infrastructure changes through version-controlled, peer-reviewed code
+- **GitOps Workflows** — Git as the single source of truth for infrastructure state
+- **CI/CD Pipeline Design** — Automated build, test, and deployment to production
+- **Monitoring-First Operations** — Proactive alerting with actionable runbooks
+- **Incident Management** — Defined response procedures, blameless post-mortems, continuous improvement
+- **Cost Optimization** — Resource right-sizing, tagging strategies, and waste elimination
+
+---
+
+## 📚 Currently Exploring
+
+| Technology | Focus Area |
+|:----------:|:----------:|
+| Advanced Kubernetes | Operators, Custom Controllers, CRDs |
+| Service Mesh | Istio, Linkerd |
+| GitOps | ArgoCD, FluxCD |
+| Infrastructure Testing | Terratest, Kitchen-Terraform |
+| Cloud FinOps | Cost optimization at scale |
+| Multi-Cloud | Hybrid networking architectures |
+
+---
+
+## 🤝 Let's Connect
+
+I'm always open to discussing cloud architecture challenges, infrastructure automation strategies, and DevOps best practices. Whether you're scaling infrastructure, building CI/CD pipelines, or optimizing cloud costs — let's talk.
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ramu_Chelloju-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ramuchelloju)
+[![Email](https://img.shields.io/badge/Email-chelloju@outlook.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:chelloju@outlook.com)
+
+</div>
+
+---
+
+<div align="center">
+
+*"Infrastructure is code. Code is tested. Code is reviewed. Therefore, infrastructure is reliable."*
+
+![Profile Views](https://komarev.com/ghpvc/?username=chellojuramu&color=0A66C2&style=flat-square&label=Profile+Views)
+
+</div>
