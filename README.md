@@ -57,6 +57,7 @@ Production-focused DevOps Engineer with **5 years** of hands-on experience archi
 ### Containers & Orchestration
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Amazon EKS](https://img.shields.io/badge/Amazon_EKS-FF9900?style=flat-square&logo=amazoneks&logoColor=white)
 ![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
 
 ### CI/CD & Automation
@@ -80,6 +81,8 @@ Production-focused DevOps Engineer with **5 years** of hands-on experience archi
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![eksctl](https://img.shields.io/badge/eksctl-FF9900?style=flat-square&logo=amazon&logoColor=white)
+![k9s](https://img.shields.io/badge/k9s-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 
 </div>
 
@@ -118,6 +121,65 @@ Sole DevOps engineer responsible for designing, deploying, and operating the com
 ---
 
 ## 🚀 Featured Projects
+
+### [`k8-roboshop`](https://github.com/chellojuramu/k8-roboshop)
+**Full Microservices Deployment on Amazon EKS — Production-Grade Kubernetes**
+
+End-to-end Kubernetes deployment of a 10-service e-commerce platform on Amazon EKS. Every manifest written, debugged, and verified working end to end.
+
+```
+Architecture:
+Browser → AWS ELB → frontend (nginx) :80
+                         ├── /api/catalogue/ → catalogue:8080 → mongodb:27017
+                         ├── /api/cart/      → cart:8080      → redis:6379
+                         ├── /api/user/      → user:8080      → mongodb:27017
+                         ├── /api/shipping/  → shipping:8080  → mysql:3306
+                         └── /api/payment/   → payment:8080   → rabbitmq:5672
+```
+
+**What makes this production-grade:**
+- ✅ Liveness, Readiness, and Startup probes on all services
+- ✅ Resource requests and limits — Guaranteed QoS class
+- ✅ ConfigMaps for all environment configuration — no hardcoded values
+- ✅ nginx.conf stored in ConfigMap — mounted as volume, no image rebuilds
+- ✅ ClusterIP for all internal services, LoadBalancer only for frontend
+- ✅ RabbitMQ for async order processing — decoupled payment flow
+- ✅ Namespace isolation with proper labels and selectors
+- ✅ Distroless runtime images for Node.js, Java, and Python services
+
+**Tech**: `Kubernetes` `Amazon EKS` `eksctl` `ConfigMap` `Volumes` `Probes` `LoadBalancer` `ClusterIP` `k9s` `kubectl`
+
+---
+
+### [`roboshop-docker-platform`](https://github.com/chellojuramu/roboshop-docker-platform)
+**Optimised Docker Images — Multi-Stage Builds for 8 Microservices**
+
+Production-optimised Dockerfiles for all Roboshop microservices using multi-stage builds, distroless runtime images, and security best practices.
+
+```
+Services:
+├── catalogue/   → Node.js  → distroless/nodejs20
+├── cart/        → Node.js  → distroless/nodejs20
+├── user/        → Node.js  → distroless/nodejs20
+├── shipping/    → Java     → distroless/java17 (maven builder)
+├── payment/     → Python   → alpine (pip --prefix pattern)
+├── frontend/    → nginx    → alpine (non-root nginx user)
+├── mongodb/     → custom   → pre-loaded schema
+└── debug/       → AlmaLinux → full toolset for cluster debugging
+```
+
+**What makes this production-grade:**
+- ✅ Multi-stage builds — build tools never in final image
+- ✅ Distroless runtime images — no shell, minimal attack surface
+- ✅ Non-root users across all services
+- ✅ Exact image version pinning — reproducible builds
+- ✅ ENV removed — all config handled by Kubernetes ConfigMap
+- ✅ Python `--prefix=/install` pattern — solves platform dependency problem
+- ✅ Dependency layer caching — faster rebuilds
+
+**Tech**: `Docker` `Multi-stage builds` `Distroless` `Node.js` `Java` `Python` `Maven` `nginx` `uwsgi` `Alpine`
+
+---
 
 ### [`roboshop-infra-dev`](https://github.com/chellojuramu/roboshop-infra-dev)
 **Production-Grade AWS Infrastructure with Terraform — Modular Multi-Tier Architecture**
