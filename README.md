@@ -90,7 +90,7 @@ Production-focused DevOps Engineer with **5 years** of hands-on experience archi
 
 ## 🏗️ Production Experience — Current Role
 
-### Telehealth Platform · Wellness Stream — Azure Cloud Infrastructure & DevOps
+### Telehealth Platform  — Azure Cloud Infrastructure & DevOps
 
 > *Primary DevOps Engineer — White-Label Healthcare SaaS Platform*
 
