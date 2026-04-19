@@ -122,6 +122,46 @@ Sole DevOps engineer responsible for designing, deploying, and operating the com
 
 ## 🚀 Featured Projects
 
+### [`aks-ecommerce-platform`](https://github.com/chellojuramu/aks-ecommerce-platform)
+**Production Helm Chart Architecture — Azure AKS with AGIC**  
+Complete Helm-based deployment of 10-service e-commerce platform on Azure Kubernetes Service with Application Gateway Ingress Controller. Single `helm install` → full production stack.
+
+```
+Architecture:
+Internet → Azure App Gateway (AGIC) → Ingress
+                                        └── frontend:8080 (non-root nginx)
+                                              ├── /api/catalogue/ → catalogue:8080 → mongodb-0 (StatefulSet)
+                                              ├── /api/cart/      → cart:8080      → redis-0 (StatefulSet)
+                                              ├── /api/user/      → user:8080      → mongodb-0
+                                              ├── /api/shipping/  → shipping:8080  → mysql (Deployment)
+                                              └── /api/payment/   → payment:8080   → rabbitmq
+
+Helm Values: 900+ configurable parameters across 10 services
+Pod Distribution: Automatic spread across 2-node cluster (Standard_D4ds_v5)
+```
+
+**What makes this production-grade:**
+- ✅ **Helm chart with templating** — `_helpers.tpl` for DRY label management, zero hardcoding
+- ✅ **StatefulSets for databases** — stable network identity for MongoDB, Redis with ordered deployment
+- ✅ **Azure AGIC integration** — native L7 load balancing, path-based routing, WAF-ready
+- ✅ **Resource tuning from incidents** — MongoDB memory increased to 512Mi after OOMKilled debugging
+- ✅ **Non-root containers** — nginx on port 8080, Java with startup probes (30×10s for JVM warmup)
+- ✅ **Secrets management** — MongoDB credentials, MySQL passwords stored in Kubernetes Secrets
+- ✅ **Values-driven deployment** — single `values.yaml` controls all services, ready for prod/staging splits
+- ✅ **Production debugging documented** — every CrashLoopBackOff, ImagePullBackOff, label selector mismatch solved and captured in README
+
+**Real incident resolution examples:**
+- MongoDB OOMKilled → Increased memory limits from 200Mi to 512Mi
+- Frontend permission denied → Switched nginx from port 80 to 8080 (non-root)
+- Service selector mismatch → Fixed `_helpers.tpl` to separate tier labels per service type
+- Shipping 404 on `/confirm` → Identified URL encoding bug in CartHelper.java line 40
+
+**Validated end-to-end:** ✅ Order placed (ID: `aa509105-c81f-437b-b53f-39c7f541d05c`), payment processed, cart emptied — full microservices flow working.
+
+**Tech**: `Kubernetes` `Azure AKS` `Helm` `AGIC` `StatefulSets` `Secrets` `ConfigMaps` `nginx` `Probes` `Resource Limits` `kubectl` `az CLI`
+
+---
+
 ### [`k8-roboshop`](https://github.com/chellojuramu/k8-roboshop)
 **Full Microservices Deployment on Amazon EKS — Production-Grade Kubernetes**
 
